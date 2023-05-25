@@ -1,0 +1,7 @@
+P=ITEMS
+Plaintext alphabets: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Ciphertext alphabet: ZEBRASCDFGHIJKLMNOPQTUVWXY
+كل حرف وفقا للتكراره فى النص يتم التعويض عنه بقيم وفقا لتكراره فى اللغة الانجليزيه او النسب الموضوعة التى تختلفمن الالجرزوم للاخر 
+
+p=Items 
+Encrypt: FQAIP
