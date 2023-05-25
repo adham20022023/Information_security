@@ -1,0 +1,146 @@
+<mxfile host="Electron" modified="2023-05-25T19:28:56.131Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="JPrP15N3A5EbGxOR5N4o" version="21.2.8" type="device">
+  <diagram name="Page-1" id="rRFc9bHcIBAohH5S0odY">
+    <mxGraphModel dx="427" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-2" value="&lt;b&gt;64 bit Key(16 hexa decimal)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=13;fillColor=#FBC538;" parent="1" vertex="1">
+          <mxGeometry x="470" y="50" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0044;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Qhx0_DWyFWgGgWvFedfv-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="160" as="targetPoint" />
+            <mxPoint x="549.72" y="40" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-24" value="&lt;b&gt;Permuted&amp;nbsp; choice 1 (PC-1)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=13;fillColor=#FBC538;" parent="1" vertex="1">
+          <mxGeometry x="470" y="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-26" value="&lt;b&gt;key (56 bit)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=13;fillColor=#FBC538;" parent="1" vertex="1">
+          <mxGeometry x="470" y="270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0044;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="549.5" y="270" as="targetPoint" />
+            <mxPoint x="549.5" y="220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-32" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Right&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=13;fillColor=#FBC538;" parent="1" vertex="1">
+          <mxGeometry x="570" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-33" value="&lt;b&gt;Left&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=13;fillColor=#FBC538;" parent="1" vertex="1">
+          <mxGeometry x="470" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0044;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="Qhx0_DWyFWgGgWvFedfv-32" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="350" as="targetPoint" />
+            <mxPoint x="600" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0044;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499.5" y="360" as="targetPoint" />
+            <mxPoint x="499.5" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-38" value="&lt;b&gt;Shift Circular (Generate 16 keys)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=13;fillColor=#FBC538;" parent="1" vertex="1">
+          <mxGeometry x="470" y="450" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0044;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="599.5" y="450" as="targetPoint" />
+            <mxPoint x="599.5" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0044;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499.5" y="450" as="targetPoint" />
+            <mxPoint x="499.5" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-41" value="&lt;b&gt;Concatenate&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=13;fillColor=#FBC538;" parent="1" vertex="1">
+          <mxGeometry x="470" y="550" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0044;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="Qhx0_DWyFWgGgWvFedfv-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="540" as="targetPoint" />
+            <mxPoint x="549.5" y="510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-43" value="&lt;b&gt;Pc-2&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=13;fillColor=#FBC538;" parent="1" vertex="1">
+          <mxGeometry x="470" y="650" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0044;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550.5" y="650" as="targetPoint" />
+            <mxPoint x="550" y="610" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="551" y="610" />
+              <mxPoint x="551" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-45" value="&lt;b&gt;16-keys (48 bits)&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=13;fillColor=#FBC538;" parent="1" vertex="1">
+          <mxGeometry x="470" y="740" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FF0044;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="740" as="targetPoint" />
+            <mxPoint x="549.5" y="710" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-47" value="&lt;b&gt;بيبقى معاك مفتاح عبارة عن 64 بت&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="65" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-48" value="&lt;b&gt;بتغير ترتيب البت وفقا لجدول هو بيبقى مديهولك فى السوال فبيطلعلك 56 بت&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="150" y="175" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-49" value="&lt;b&gt;بتقسمهم على الاتنين فكل واحد هياخد 28 بت&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="285" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-50" value="&lt;b&gt;28 bit&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="330" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-51" value="&lt;b&gt;28 bit&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="330" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-52" value="&lt;b&gt;بتعمل شيفت للشمال واليمين بمقدار معين بيكون معطى فى الجدول والناتج هيبقى 16 مفتاح&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="465" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-53" value="&lt;b&gt;بعد كده بتدمج الشمال واليمين وبيطلعلك 56 بت&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="565" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-54" value="&lt;b&gt;بغير ترتيبهم تانى وفقا لجدول بيكون معطى وبعد كده بختزلهم ل 48 بت فقط&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="665" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-55" value="&lt;b&gt;56 bit&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="620" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-57" value="&lt;b&gt;48 bit&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="710" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-58" value="&lt;b&gt;28 bit right&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="520" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-59" value="&lt;b&gt;28 bit left&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="520" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Qhx0_DWyFWgGgWvFedfv-61" value="&lt;b&gt;كده معاى 16 مفتاح كل مفتاح&amp;nbsp; 48&amp;nbsp;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="340" y="755" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2EfSCCdBsImoBxuP3JbE-3" value="&lt;b&gt;الشيفت هيتم للشمال واللى هيقع من الشمال احطه فى الاول على اليمين&amp;nbsp;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="500" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2EfSCCdBsImoBxuP3JbE-4" value="&lt;b&gt;الجزء ده هيتم 16 مرة&amp;nbsp;&lt;/b&gt;" style="shape=or;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" parent="1" vertex="1">
+          <mxGeometry x="680" y="450" width="60" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="2EfSCCdBsImoBxuP3JbE-5" value="&lt;b&gt;64 bit&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="560" y="120" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2EfSCCdBsImoBxuP3JbE-6" value="&lt;b&gt;56 bit&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="560" y="230" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
