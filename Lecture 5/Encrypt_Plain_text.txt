@@ -1,0 +1,37 @@
+1. Add Round Key:
+   - Perform an XOR operation between the plaintext (P) and the round key (K) to obtain a new 128-bit block of data.
+   - Example:
+     - P = 1101 0111 0010 1000
+     - K = 0100 1010 1111 0101
+     - Result = 1001 1101 1101 1101
+
+2. Nibble Substitution (S-Box):
+   - Substitute each 4-bit nibble of the result obtained in step 1 using a substitution table called S-Box. 
+   - Example:
+     - Input = 1001 1101 1101 1101
+     - Output = 0010 1110 1110 1110
+3. Shift Rows:
+   - Shift the second and fourth rows of the output obtained in step 2 by 1 and 2 nibbles to the left, respectively.
+   - Example:
+     - Input = 0010 1110 1110 1110
+     - Output = 0010 1110 1110 1110 (no change, since no rows were shifted)
+
+4. Mix Columns:
+   -Perform a matrix multiplication on the output obtained in step 3 using a fixed matrix called the MixColumns table.
+
+	[0010 1110 ]   = [ 2 E ]
+	[1110 1110 ]   = [ E E ]
+
+	[1 4] [2  E] =1*2  xor 4*14   1*14 xor 4*14
+	[4 1] [E  E] =4*2  xor 14*1    4*14 xor 1*14 
+	
+	[1111 0011]
+	[0110 0001]
+	=
+	1111 0110 0011 0011
+-----------------------------------------------
+add W2,3 => nibble substitution => shift row => 
+add round w4,5
+
+
+
