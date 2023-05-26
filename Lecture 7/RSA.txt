@@ -1,0 +1,52 @@
+Sure, let's use the following numbers as an example:
+
+p = 3
+q = 11
+m = 2
+
+
+Key Generation Steps:
+1. Choose two random prime numbers p and q
+   p = 3, q = 11
+################################################
+2. Compute n = p x q
+   n = 3 x 11 = 33
+################################################
+3. Compute Q(n) = (p-1) x (q-1)
+   Q(n) = (3-1) x (11-1) = 2 x 10 = 20
+################################################
+4. Find an integer e such that 1 < e < Q(n) and e is coprime to Q(n)
+   Let's choose e = 7
+################################################
+5. Compute d such that (d x e) mod Q(n) = 1
+   d*7 mod 20 =1 
+   1*7 mod 20 =1 X
+   2*7 mod 20 =1 X
+   3*7 mod 20 =1 => D=3 
+################################################
+6. Public key is (e, n)
+   Public key is (7, 33)
+7. Private key is (d, n)
+   Private key is (3, 33)
+
+Encryption:
+1. Obtain the public key (e, n)
+   (e, n) = (7, 33)
+2. Convert the message to a numerical value (plaintext to integer)
+   m = 2
+3. Compute the ciphertext c = (message^e) mod n
+   c = (2^7) mod 33
+   c = 128 mod 33
+   c = 29
+-------------------------------------------------------------------------------
+Decryption:
+1. Obtain the private key (d, n)
+   (d, n) = (3, 33)
+2. Obtain the ciphertext c
+   c = 29
+3. Compute the plaintext message m = (c^d) mod n
+   m = (29^3) mod 33
+   m = 24389 mod 33
+   m = 2
+4. Convert the numerical value back to the original message (integer to plaintext)
+   The original message is 2.
