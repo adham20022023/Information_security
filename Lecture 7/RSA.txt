@@ -50,3 +50,10 @@ Decryption:
    m = 2
 4. Convert the numerical value back to the original message (integer to plaintext)
    The original message is 2.
+----------------------------------------------------------------------------------
+note 
+لو الاس كبير فببتدى اوزع الاس يعنى على سبيل المثال 
+
+8^10 mod 26  = 8^2 mod 26 *  8^4 mod 26 * 8^4 mod 26  =12
+
+12*14*14 mod 26 =14  and the answer is 12 how
