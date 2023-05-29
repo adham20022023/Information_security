@@ -8,7 +8,7 @@
 2. Nibble Substitution (S-Box):
    - Substitute each 4-bit nibble of the result obtained in step 1 using a substitution table called S-Box. 
    - Example:
-     - Input = 1001 1101 1101 1101
+     - Input  = 1001 1101 1101 1101
      - Output = 0010 1110 1110 1110
 3. Shift Rows:
    - Shift the second and fourth rows of the output obtained in step 2 by 1 and 2 nibbles to the left, respectively.

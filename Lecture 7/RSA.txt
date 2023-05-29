@@ -15,7 +15,7 @@ Key Generation Steps:
 3. Compute Q(n) = (p-1) x (q-1)
    Q(n) = (3-1) x (11-1) = 2 x 10 = 20
 ################################################
-4. Find an integer e such that 1 < e < Q(n) and e is coprime to Q(n)
+4. Find an integer e such that 1 < e < Q(n) and e is co prime to Q(n)
    Let's choose e = 7
 ################################################
 5. Compute d such that (d x e) mod Q(n) = 1
@@ -56,4 +56,4 @@ note
 
 8^10 mod 26  = 8^2 mod 26 *  8^4 mod 26 * 8^4 mod 26  =12
 
-12*14*14 mod 26 =14  and the answer is 12 how
+12*14*14 mod 26 =12  and the answer is 12 how
